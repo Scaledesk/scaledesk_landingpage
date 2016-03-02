@@ -14,6 +14,8 @@
     <meta name="description" content="We are Scaldesk Webstudio - We help startups Start-Up. We are a small team of dedicated web enthusiasts that believe in the power of internet and great ideas.">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="alexaVerifyID" content="G5EVWcMGQmY0Vo4XmWpcgWB3uYw"/>
     
     <meta name="robots" content="index,follow">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
