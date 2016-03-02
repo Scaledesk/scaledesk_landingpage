@@ -75,6 +75,8 @@
 		-webkit-transition: all 300ms ease-in-out;
 		transition: all 300ms ease-in-out
 	}
+    
+    header ul.primary-nav li a{ font-size: 25px !important;}
 
 	nav ul li {
 		margin-bottom: 25px

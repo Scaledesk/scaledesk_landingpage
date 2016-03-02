@@ -1,4 +1,4 @@
-# "Sedna" One Page Website Template
+# Scaledesk webs studio
 
 "Scaldesk".
 
@@ -34,8 +34,6 @@
 [Elegant Icons](http://www.elegantthemes.com/blog/resources/elegant-icon-font/) by Elegant Themes. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
 
 ## Misc
-
-Follow Pete: [Twitter](https://twitter.com/peterfinlan), [Dribbble](http://www.dribbble.com/peterfinlan)
 
 Follow : [GitHub](https://github.com/scaledesk), 
 
