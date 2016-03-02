@@ -1,14 +1,7 @@
 # "Sedna" One Page Website Template
 
-"Sedna" is a one page website template made by [Peter Finlan](http://peterfinlan.com/) exclusively for Codrops.
+"Scaldesk".
 
-[Download on Codrops](http://tympanus.net/codrops/?p=24660)
-
-[Demo](http://tympanus.net/Freebies/Sedna/)
-
-## License
-
-Use it freely but please do not republish, distribute or sell "as-is". [Read more about our license.](http://tympanus.net/codrops/licensing/)
 
 ## Credits 
 
@@ -44,8 +37,6 @@ Use it freely but please do not republish, distribute or sell "as-is". [Read mor
 
 Follow Pete: [Twitter](https://twitter.com/peterfinlan), [Dribbble](http://www.dribbble.com/peterfinlan)
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/pages/Codrops/159107397912), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/)
-
-[© Codrops 2015](http://www.codrops.com)
+Follow : [GitHub](https://github.com/scaledesk), 
 
 
