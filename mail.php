@@ -17,12 +17,13 @@ $message ='<html>
 </body>
 </html>';
 $headers = "MIME-Version: 1.0" . "\r\n";
-$headers  .= "From:noreply@scaledesk.com\r\n";
+$headers  .= "From:sudo@scaledesk.com\r\n";
 $headers .= "Content-type: text/html;charset=iso-8859-1" . "\r\n";
 $retval = mail ($email,$subject,$message,$headers);
  header("location: index.php");
 }
 else{
+echo "hello error";
 	header("location: index.php");
 }
 
