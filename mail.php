@@ -3,9 +3,10 @@
 if(isset($_POST['email'])) 
 {
 	
-$email=$_POST('email');
-$phone=$_POST('phone');
-$name=$_POST('name');
+$email=$_POST['email'];
+
+$phone=$_POST['phone'];
+$name=$_POST['name'];
 
 $subject = "GET IN TOUCH.";
 $message ='<html>
