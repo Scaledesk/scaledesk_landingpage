@@ -10,9 +10,9 @@ $name=$_POST('name');
 $subject = "GET IN TOUCH.";
 $message ='<html>
 <body>
-<div id="abcd" style="text-align:justify;font-size:18px;">Please Activate your account</div>
-Your password : '.$pass.'<br/>
-<a href="http://rgcit.in/curelife7/activate_account.php?tqwertyuiasdfghjzxcvbn='.$token.'" target="_blank">click Here</a><br/><br/>or Copy below link in Your browser : <br/><br/>http://rgcit.in/curelife7/activate_account.php?tqwertyuiasdfghjzxcvbn='.$token.'
+<div id="abcd" style="text-align:justify;font-size:18px;"> Name:-'.$name.' </div>
+
+
 </body>
 </html>';
 $headers = "MIME-Version: 1.0" . "\r\n";
