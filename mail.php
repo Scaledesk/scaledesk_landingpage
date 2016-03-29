@@ -2,7 +2,7 @@
 
 if(isset($_POST['email'])) 
 {
-	
+  	
 $email=$_POST['email'];
 
 $phone=$_POST['phone'];
@@ -17,14 +17,26 @@ $message ='<html>
 </body>
 </html>';
 $headers = "MIME-Version: 1.0" . "\r\n";
-$headers  .= "From:sudo@scaledesk.com\r\n";
-$headers .= "Content-type: text/html;charset=iso-8859-1" . "\r\n";
-$retval = mail ($emailadmin,$subject,$message,$headers);
- header("location: index.php");
+$headers = "From:sudo@scaledesk.com\r\n";
+$headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
+      if(mail($emailadmin,$subject,$message,$headers)){
+
+      	unset($headers,$message,$email,$name,$phone,$emailadmin,$subject);
+        header("location: index.php?msg=Successfully");
+
+
+      }else{
+      			 unset($headers,$message,$email,$name,$phone,$emailadmin,$subject);
+	      header("location: index.php?msg=Some  error Occurred");
+
+      }
+      
+
 }
 else{
-echo "hello error";
-	header("location: index.php");
+
+    
+	header("location: index.php?msg=Some  error Occurred");
 }
 
 
