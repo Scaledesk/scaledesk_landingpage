@@ -60,8 +60,8 @@
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#features">What we Do ?</a></li>
-                                <li><a href="#assets">Who we are ?</a></li>
+                                <li><a href="#features">What we do </a></li>
+                                <li><a href="#assets">Who we are </a></li>
 <!--                                <li><a href="#blog">Our Works</a></li>-->
                                 <li><a href="#portfolio">Portfolio</a></li>
                                 <li><a href="#timeline">Our Work-flow</a></li>
@@ -324,10 +324,8 @@
 -->
     <section id="portfolio">
             <div class="row">
-                <div class="col-md-1">
-                    
-                </div>
-                <div class="col-md-10">
+                
+                <div class="col-md-12">
                  <div class="cd-slider-wrapper">
         <ul class="cd-slider">
             <li class="is-visible">
@@ -339,7 +337,7 @@
                         <p>
                             A clean Landing page for the Hum-Ara app. 
                         </p>
-                        <a href="#" class="btn">Check</a>
+                        <a href="http://hum-ara.com/" class="btn">Check</a>
                     </div>
                 </div>
             </li> <!-- .cd-half-block.content -->
@@ -353,7 +351,7 @@
                         <p>
                             A complete e-commerce solution for online online Custom made women designer apparels. 
                         </p>
-                        <a href="www.shaleenanowbuth.com" class="btn">Check</a>
+                        <a href="http://www.shaleenanowbuth.com/" class="btn">Check</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -367,6 +365,7 @@
                         <p>
                             An Online Marketplace for Buying and Selling of Bulk Paper transactions.  
                         </p>
+                        <a href="http://www.chawrionline.com/" class="btn">Check</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -381,6 +380,7 @@
                             A Web portal for easy online booking pf cars,bus and
                             Train at one place.
                         </p>
+                        <a href="http://www.travally.in/#/home" class="btn">Check</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -388,9 +388,7 @@
     </div> <!-- .cd-slider-wrapper -->
  
                 </div>
-                <div class="col-md-1">
-                    
-                </div>
+                
             
             </div></section>
             <!--vertical timeline-->
@@ -456,7 +454,7 @@
 
             <div class="cd-timeline-content">
                 <h2>Testing</h2>
-                <p>A thorough Testing is a must for any product to go into deployement phase.    </p>
+                <p>A thorough Testing is a must for any product to go into deployment phase. </p>
                 <!-- <a href="#0" class="cd-read-more">Read more</a> -->
                 <span class="cd-date">Testing</span>
             </div> <!-- cd-timeline-content -->
@@ -472,10 +470,10 @@
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-                <h2>Deployement</h2>
-                <p>An apt deployement strategy that suits your needs is a must for your product. We help you to Deploy as well as Scale-Up the product. </p>
+                <h2>Deployment</h2>
+                <p>An apt deployment strategy that suits your needs is a must for your product. We help you to Deploy as well as Scale-Up the product. </p>
                 <!-- <a href="#0" class="cd-read-more">Read more</a> -->
-                <span class="cd-date">Deployement</span>
+                <span class="cd-date">Deployment</span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
@@ -487,7 +485,7 @@
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-                <h2>Party !</h2>
+                <h2>Delivery</h2>
                 <p>This is the content of the last section</p>
                 <span class="cd-date">Happy Clients , Happy We ! Success Party ! </span>
             </div> <!-- cd-timeline-content -->
