@@ -18,7 +18,9 @@
     <meta name="alexaVerifyID" content="G5EVWcMGQmY0Vo4XmWpcgWB3uYw"/>
     
     <meta name="robots" content="index,follow">
+    
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="css/normalize.min.css">
@@ -133,7 +135,7 @@
                         <span data-icon="&#xe033;" class="icon"></span>
                     </div>
                     <div class="intro-content">
-                        <h5>Web Desing</h5>
+                        <h5>Web Design</h5>
                         <p>We cater to your custome needs to suit your start up, business or product. Your Idea , Our Execution. </p>
                     </div>
                 </div>
@@ -212,10 +214,8 @@
                 <div class="col-md-5">
                     <div class="feature-list">
                         <h3> A Vision</h3>
-                        <p>Easily change/switch/swap every placeholder inside every image on Scaledesk with the included Sketch files. You’ll have this template customised to suit your business in no time! </p>
-                        <p>
-                            dfdfgdf
-                        </p>
+                        <p>We strive to provide the best custom solutions for  all your requirements for Website design and development, SEO, Mobile App design and Development, technological consultation and support at every point.  </p>
+                       
                         
                        <a href="#cd-timeline" class="btn btn-ghost btn-accent btn-small">Check our Work-Flow</a>
                     </div>
@@ -334,7 +334,7 @@
                     <div>
                         <h2>Hum-Ara</h2>
                         <p>
-                            A clean Landing page for the Hum-Ara app. 
+                            A Mobile friendly Landing page for the Hum-Ara app. 
                         </p>
                         <a href="http://hum-ara.com/" class="btn">Check</a>
                     </div>
@@ -362,7 +362,7 @@
                     <div>
                         <h2>Chawrionline.com</h2>
                         <p>
-                            An Online Marketplace for Buying and Selling of Bulk Paper transactions.  
+                            An Online Marketplace for Buying and Selling of Paper in bulk.  
                         </p>
                         <a href="http://www.chawrionline.com/" class="btn">Check</a>
                     </div>
@@ -374,12 +374,11 @@
 
                 <div class="cd-half-block content">
                     <div>
-                        <h2>Travally.in</h2>
+                        <h2>AsapHardware Solutions</h2>
                         <p>
-                            A Web portal for easy online booking pf cars,bus and
-                            Train at one place.
+                           A unique business initiative to help enthusiast to get all possible hardware or materials under single roof irrespective of event type.
                         </p>
-                        <a href="http://www.travally.in/#/home" class="btn">Check</a>
+                        <a href="http://www.asaphardwaresolutions.com" class="btn">Check out the Website</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -486,7 +485,7 @@
             <div class="cd-timeline-content">
                 <h2>Delivery</h2>
                 <p>This is the content of the last section</p>
-                <span class="cd-date">Happy Clients , Happy We ! Success Party ! </span>
+                <span class="cd-date">Happy Clients , Happy We ! </span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
          
@@ -533,13 +532,13 @@
 
                     <form class="signup-form" action="mail.php" method="POST" role="form">    
                         <div class="form-input-group">
-                            <i style="color:#34b3a0;" class="fa fa-envelope"></i><input type="text" class="" name="name" placeholder=" Your Name" required>
+                            <i style="color:#34b3a0;" class="fa fa-user"></i><input type="text" class="" name="name" placeholder=" Your Name" required>
                         </div>
                         <div class="form-input-group">
                             <i style="color:#34b3a0;" class="fa fa-envelope"></i><input type="email" class="" name="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-input-group">
-                            <i style="color:#34b3a0;" class="fa fa-phone"></i><input type="text" class="" name="phone"placeholder="Enter your Contact Number" required>
+                            <i style="color:#34b3a0;" class="fa fa-phone"></i><input type="text" class="" name="phone"placeholder="Enter your Contact Number" >
                         </div>
                         <button style="font-size:20px; font-weight:500;" name="submit" type="submit" class="btn-fill sign-up-btn">Get in Touch</button>
                     </form>
@@ -596,7 +595,23 @@
              India -201301. 
              
              <hr>
-             <i class="fa fa-phone-square"></i> <h5> Contact : +91 120 4162750 </h5>
+             <h4> Contact Us</h4>
+             <h5>
+            <i class="fa fa-phone-square"></i> Landline : +91 120 4162750
+             </h5>
+             
+              <h5>
+            <i style="font-size:17px;" class="fa fa-mobile"></i>&nbsp;&nbsp; Mobile : +91 8650265445
+             </h5>
+             
+<!--
+             <h5> 
+                 <a      href="intent://send/8650265445#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"> Whatsapp</a>
+                 
+             </h5>
+-->
+             
+             
              
         
         </div>
@@ -673,6 +688,6 @@
 <script src="pointy-slider/js/jquery.mobile.custom.min.js"></script>
 <script src="pointy-slider/js/main.js"></script> <!-- Resource jQuery --> 
 <script src="vertical-timeline/js/main.js"></script>
-<script src="js/constellation.js"></script>
+<!--<script src="js/constellation.js"></script>-->
 </body>
 </html>

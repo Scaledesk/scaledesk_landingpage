@@ -1166,7 +1166,7 @@ you can use the generic selector below, but it's slower:
 .icon-dribbble:before {
   content: "\e063"; }
 
-/*Custom CSS */
+/* ====================  Custom CSS ============================== */
 
 *body
 {font-family:font-family: 'Source Sans Pro', sans-serif !important;
@@ -1230,4 +1230,15 @@ header ul.primary-nav li a:hover {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+}
+
+
+h1{
+    font-size: 48px;
+}
+
+.cd-slider-wrapper{
+    margin-top: 50px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
 }
