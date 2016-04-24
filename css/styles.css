@@ -1242,3 +1242,14 @@ h1{
     border-bottom: 2px solid #ccc;
     border-top: 2px solid #ccc;
 }
+
+
+
+ .sign-up .signup-form .form-input-group i.fa-user {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 20px; }
