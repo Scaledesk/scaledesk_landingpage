@@ -1,4 +1,3 @@
-
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -11,7 +10,8 @@
     
     <title>Scaledesk Web Studio Private limited</title>
     
-    <meta name="description" content="We are Scaldesk Webstudio - We help startups Start-Up. We are a small team of dedicated web enthusiasts that believe in the power of internet and great ideas.">
+    <meta name="description" content="We are Scaldesk Webstudio 
+    - We help startups Start-Up. We are a small team of dedicated web enthusiasts that believe in the power of internet and great ideas.">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -60,13 +60,12 @@
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#features">What we do </a></li>
-                                <li><a href="#assets">Who we are </a></li>
+                                <li><a href="#intro">What we do </a></li>
+                                <li><a href="#description">Who we are </a></li>
 <!--                                <li><a href="#blog">Our Works</a></li>-->
                                 <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#timeline">Our Work-flow</a></li>
-                                <li><a href="#download" style="font-size:15px;">Get in Touch</a></li>
-                                
+                                <li><a href="#work-flow">Our Work-flow</a></li>
+                                <li><a href="#contact-us" style="font-size:15px;">Get in Touch</a></li>
                             </ul>
                             <ul class="member-actions">
 <!--                                <li><a href="#download" class="login">Log in</a></li>-->
@@ -89,7 +88,7 @@
                         <p class="intro">We are Scaledesk - Webstudio, We help startups <i>START-UP </i>!  </p>
 <!--                        <a href="#" class="btn btn-fill btn-large btn-margin-right">Download</a> -->
                         
-                        <a href="#features" class="btn btn-accent btn-large">Learn more</a>
+                        <a href="#intro" class="btn btn-accent btn-large">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -159,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section class="features section-padding" id="features">
+    <section class="features section-padding" id="description">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-md-offset-7">
@@ -207,7 +206,7 @@
         </div>
         <div class="responsive-feature-img"><img src="img/devices.png" alt="responsive devices"></div>
     </section>
-    <section class="features-extra section-padding" id="assets">
+    <section class="features-extra section-padding" id="description">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -226,18 +225,18 @@
         <div class="macbook-wrap wp3"></div>
         <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
     </section>
-    <section class="hero-strip section-padding">
+    <!-- <section class="hero-strip section-padding">
         <div class="container">
             <div class="col-md-12 text-center">
                 <h2 style="background:rgba(0,0,0,0.4);">
                 We believe that design and functionality go hand in hand !
-                </h2>
+                </h2> -->
 <!--                <p>Change/swap/edit every aspect of Scaledesk before you hit development with the included Sketch file.</p>-->
-                <a href="#download" class="btn btn-ghost btn-accent btn-large" style="margin-top:50px;color:#444; ">Get in touch now ! </a>
+                <!-- <a href="#download" class="btn btn-ghost btn-accent btn-large" style="margin-top:50px;color:#444; ">Get in touch now ! </a> -->
 <!--                <div class="logo-placeholder floating-logo"><img src="img/sketch-logo.png" alt="Sketch Logo"></div>-->
-            </div>
+            <!-- </div>
         </div>
-    </section>
+    </section> -->
 <!--
     <section class="blog-intro section-padding" id="blog">
         <div class="container">
@@ -392,7 +391,7 @@
             
             </div></section>
             <!--vertical timeline-->
-    <section id="timeline" class="timeline_h">
+    <section id="work-flow" class="timeline_h">
         
         <div class="row"> <h3>This is the way we work and deliver </h3> </div>
         
@@ -510,13 +509,14 @@
                             </li>
                             <li>
                                 <div class="avatar"><img src="img/MiltonGlaser.jpg" alt="Scaledesk Testimonial Avatar"></div>
-                                <h2>" “There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for.”  "</h2>
+                                <h2>"There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for. "</h2>
                                 <p class="author">Milton Glaser</p>
                             </li>
                             <li>
                                 <div class="avatar"><img src="img/130.jpg" alt="Scaledesk Testimonial Avatar"></div>
-                                <h2>""</h2>
-                                <p class="author"></p>
+                                <h2>“Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.”
+</h2>
+                                <p class="author">Steve JObs</p>
                             </li>
                         </ul>
                     </div>
@@ -524,7 +524,7 @@
             </div>
         </div>
     </section>
-    <section class="sign-up section-padding text-center" id="download">
+    <section class="sign-up section-padding text-center" id="contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
@@ -562,13 +562,11 @@
       function initMap() {
         var mapDiv = document.getElementById('g-map');
         var map = new google.maps.Map(mapDiv, {
+
           center: {lat: 28.581404, lng: 77.321676},  
+         zoom: 18
 
-
-          zoom: 18
-            
-            
-        });
+            });
           var myLatLng = {lat: 28.625211, lng: 77.376232};
     var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
     var marker = new google.maps.Marker({
@@ -578,8 +576,7 @@
 });
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
         
         </div>
         
@@ -599,7 +596,7 @@
              India -201301. 
              
              <hr>
-             <i class="fa fa-phone-square"></i> <h5> Contact : 9959764685 / 9999715696 </h5>
+             <i class="fa fa-phone-square"></i> <h5> Contact : +91 120 4162750 </h5>
              
         
         </div>
@@ -624,12 +621,12 @@
                     <div class="footer-links">
                         <ul class="footer-group">
                                                       
-                                <li><a href="#features">What we Do ?</a></li>
-                                <li><a href="#assets">Who we are ?</a></li>
+                                <li><a href="#intro">What we Do</a></li>
+                                <li><a href="#description">Who we are</a></li>
 <!--                                <li><a href="#blog">Our Works</a></li>-->
                                 <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#timeline">Our Work-flow</a></li>
-                                <li><a href="#download" style="font-size:15px;">Get in Touch</a></li>
+                                <li><a href="#work-flow">Our Work-flow</a></li>
+                                <li><a href="#contact-us" style="font-size:15px;">Get in Touch</a></li>
                             
                            
                         </ul>

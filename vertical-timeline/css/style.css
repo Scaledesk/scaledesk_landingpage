@@ -348,6 +348,12 @@ header h1 {
     right: 122%;
     text-align: right;
   }
+  /*custom for nth odd title in timeline*/
+  .cd-timeline-block:nth-child(odd) .cd-timeline-content .cd-date {
+    right: auto;
+    right: 122%;
+    text-align: left;
+  }
   .cssanimations .cd-timeline-content.is-hidden {
     visibility: hidden;
   }
