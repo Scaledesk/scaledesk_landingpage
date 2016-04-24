@@ -10,6 +10,8 @@
     
     <title>Scaledesk Web Studio Private limited</title>
     
+    <meta name="google-site-verification" content="04CML_6VuH3tmmi_hzOlVCxKlZyRNDNgv58dm3hNVXM" />
+    
     <meta name="description" content="We are Scaldesk Webstudio 
     - We help startups Start-Up. We are a small team of dedicated web enthusiasts that believe in the power of internet and great ideas.">
     
