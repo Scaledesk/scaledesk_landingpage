@@ -73,16 +73,16 @@ Slider
   background-repeat: no-repeat;
 }
 .cd-slider li:first-of-type .image {
-  background-image: url(../img/humara.png);
+  background-image: url(../img/humara.jpg);
 }
 .cd-slider li:nth-of-type(2) .image {
-  background-image: url(../img/shaleena.png);
+  background-image: url(../img/shaleena.jpg);
 }
 .cd-slider li:nth-of-type(3) .image {
-  background-image: url(../img/chawri.png);
+  background-image: url(../img/chawri.jpg);
 }
 .cd-slider li:nth-of-type(4) .image {
-  background-image: url(../img/travally.png);
+  background-image: url(../img/asap.jpg);
 }
 .cd-slider .image {
   background-size: contain;

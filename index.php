@@ -339,7 +339,7 @@
                         <p>
                             A Mobile friendly Landing page for the Hum-Ara app. 
                         </p>
-                        <a href="http://hum-ara.com/" class="btn">Check</a>
+                        <a href="http://hum-ara.com/" class="btn">Check out website</a>
                     </div>
                 </div>
             </li> <!-- .cd-half-block.content -->
@@ -353,7 +353,7 @@
                         <p>
                             A complete e-commerce solution for online online Custom made women designer apparels. 
                         </p>
-                        <a href="http://www.shaleenanowbuth.com/" class="btn">Check</a>
+                        <a href="http://www.shaleenanowbuth.com/" class="btn">Check out website</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -367,7 +367,7 @@
                         <p>
                             An Online Marketplace for Buying and Selling of Paper in bulk.  
                         </p>
-                        <a href="http://www.chawrionline.com/" class="btn">Check</a>
+                        <a href="http://www.chawrionline.com/" class="btn">Check out website</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -381,7 +381,7 @@
                         <p>
                            A unique business initiative to help enthusiast to get all possible hardware or materials under single roof irrespective of event type.
                         </p>
-                        <a href="http://www.asaphardwaresolutions.com" class="btn">Check out the Website</a>
+                        <a href="http://www.asaphardwaresolutions.com" class="btn">Check out Website</a>
                     </div>
                 </div> <!-- .cd-half-block.content -->
             </li>
@@ -515,7 +515,7 @@
                                 <p class="author">Milton Glaser</p>
                             </li>
                             <li>
-                                <div class="avatar"><img src="img/130.jpg" alt="Scaledesk Testimonial Avatar"></div>
+                                <div class="avatar"><img src="img/jobs.jpg" alt="Scaledesk Testimonial Avatar"></div>
                                 <h2>“Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.”
 </h2>
                                 <p class="author">Steve JObs</p>
