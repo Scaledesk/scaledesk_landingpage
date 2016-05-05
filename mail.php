@@ -7,8 +7,8 @@ $email=$_POST['email'];
 
 $phone=$_POST['phone'];
 $name=$_POST['name'];
-/*$emailadmin="sanchit2411@gmail.com";*/
-$emailadmin="nitesh@scaledesk.com";
+$emailadmin="sanchit2411@gmail.com";
+/*$emailadmin="nitesh@scaledesk.com";*/
 $subject = "GET IN TOUCH.";
 $message ='<html>
 <body>
