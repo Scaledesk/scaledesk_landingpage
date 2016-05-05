@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
-                        <h1>Design, Collaborate, Develop, Excell</h1>
+                        <h1>Design, Collaborate, Develop, Excel</h1>
                         <p class="intro">We are Scaledesk - Webstudio, We help startups <i>START-UP </i>!  </p>
 <!--                        <a href="#" class="btn btn-fill btn-large btn-margin-right">Download</a> -->
                         
@@ -600,7 +600,7 @@
              <hr>
              <h4> Contact Us</h4>
              <h5>
-            <i class="fa fa-phone-square"></i> Landline : +91 120 4162750
+            <i class="fa fa-phone-square"></i> Landline : +91 120 4162705
              </h5>
              
               <h5>
