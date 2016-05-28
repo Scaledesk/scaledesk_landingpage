@@ -533,25 +533,77 @@
                     <h3>Get started with Scaledesk.</h3>
                     <p>We will get back to you in a jiffy ....</p>
 
-                    <form class="signup-form" action="mail.php" method="POST" role="form">    
+                     <span id="successmsg" style='display:none'> Successfully send query</span> 
+                      <span id="errormsg" style='display:none'> Some error occurred</span>   
+
+                    <form class="signup-form"  method="POST" role="form" id="signup" >    
                         <div class="form-input-group">
-                            <i style="color:#34b3a0;" class="fa fa-user"></i><input type="text" class="" name="name" placeholder=" Your Name" required>
+                            <i style="color:#34b3a0;" class="fa fa-user"></i><input type="text" id="name" class="" name="name" placeholder=" Your Name" required>
                         </div>
                         <div class="form-input-group">
-                            <i style="color:#34b3a0;" class="fa fa-envelope"></i><input type="email" class="" name="email" placeholder="Enter your email" required>
+                            <i style="color:#34b3a0;" class="fa fa-envelope"></i><input id="email" type="email" class="" name="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-input-group">
-                            <i style="color:#34b3a0;" class="fa fa-phone"></i><input type="text" class="" name="phone"placeholder="Enter your Contact Number" >
+                            <i style="color:#34b3a0;" class="fa fa-phone"></i><input id="contact" type="text" class="" name="phone"placeholder="Enter your Contact Number" >
                         </div>
-                        <button style="font-size:20px; font-weight:500;" name="submit" type="submit" class="btn-fill sign-up-btn">Get in Touch</button>
+                        <button style="font-size:20px; font-weight:500;" onclick="submitForm(this)" name="submit" type="button" class="btn-fill sign-up-btn">  Get in Touch <span id="loadingmessage" style='display:none'> <i class="fa fa-spinner fa-pulse fa-fw"></i></span></button>
                     </form>
 
-
+                     
                 </div>
             </div>
         </div>
     </section>
     
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    function submitForm(){
+
+     $('#loadingmessage').show(); 
+/*signup*/
+ /*alert(123);*/
+   var name=document.getElementById('name').value;
+   /* alert(name);*/
+   var email=document.getElementById('email').value;
+    /* alert(email);*/
+   var contact=document.getElementById('contact').value;
+  /* alert(contact);*/
+   var dd ={"name":+ name,"email": + email,"contact": + contact};
+
+ $.ajax({
+                 'url' : "mail.php",
+                  'type' : "POST", 
+                  dataType: "json",
+                  'data':dd,
+                
+                  'success' : function(data){
+                            $('#loadingmessage').hide();
+
+                              if(data=="ok"){
+                                 $('#successmsg').show(0).delay(5000).hide(0);
+                              }else{
+                                $('#errormsg').show(0).delay(5000).hide(0); 
+                              }
+                              
+                           
+                            
+                       
+ 
+                  },
+                   'error': function(data){
+                     /*alert("Error"); */
+                      $('#errormsg').show(0).delay(5000).hide(0); 
+                  }
+                  });
+
+
+    }
+
+
+
+    </script>
     <!-- Google Maps etc -->
     
     <section class="intro section-padding">

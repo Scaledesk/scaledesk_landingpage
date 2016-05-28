@@ -1,14 +1,17 @@
 <?php
+/* echo json_encode("no");*/
 
 if(isset($_POST['email'])) 
 {
-  	
+  
+    
+
 $email=$_POST['email'];
 
 $phone=$_POST['phone'];
 $name=$_POST['name'];
 $emailadmin="sanchit2411@gmail.com";
-/*$emailadmin="nitesh@scaledesk.com";*/
+
 $subject = "GET IN TOUCH.";
 $message ='<html>
 <body>
@@ -34,13 +37,15 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
            if(mail($email,$subject,$messageUsers,$headers)){
 
       	unset($headers,$message,$email,$name,$phone,$emailadmin,$subject);
-        header("location: index.php?msg=Successfully");
+      
+       echo json_encode("ok");
 
              } 
 
           else{
       			 unset($headers,$message,$email,$name,$phone,$emailadmin,$subject);
-	      header("location: index.php?msg=Some  error Occurred");
+	    
+           echo json_encode("ok");
 
                  }
        
@@ -50,7 +55,8 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
 
        else{
       			 unset($headers,$message,$email,$name,$phone,$emailadmin,$subject);
-	      header("location: index.php?msg=Some  error Occurred");
+	     /* header("location: index.php?msg=Some  error Occurred");*/
+        echo json_encode("no");
 
          }
       
@@ -59,9 +65,9 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
 }
 
 else{
-
-    
-	header("location: index.php");
+     /* echo json_encode("singh");*/
+     echo json_encode("no");
+	/*header("location: index.php");*/
 }
 
 
